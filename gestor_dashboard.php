@@ -12,6 +12,7 @@
         <h2 class="">SGM | Gestão Administrativa</h2>
         <div class="d-flex align-items-center gap-2">
             <p class="m-0 border-1 border-end pe-2">Olá, Admin Gestor</p>
+            <a href="gestor_dashboard.php" class="border-1 border-end pe-2 text-decoration-none btn btn-outline-light">Voltar</a>
             <a href="api/logout.php" class="btn btn-outline-light">Sair</a>
         </div>
     </nav>
@@ -32,7 +33,10 @@
         </section>
         <section class="d-flex gap-2 justify-content-center">
             <a href="gestor_chamados.php" class="btn btn-secondary"><i class="bi bi-list-task"></i> Gerenciar Todos os Chamados</a>
-            <a href="" class="btn btn-outline-primary"><i class="bi bi-geo-alt"></i> Configurar Ambientes</a>
+            <a href="configurar_ambientes.php" class="btn btn-outline-primary"><i class="bi bi-geo-alt"></i> Ambientes</a>
+            <a href="configurar_blocos.php" class="btn btn-outline-warning"><i class="bi bi-columns-gap"></i> Blocos</a>
+            <a href="configurar_servicos.php" class="btn btn-outline-success"><i class="bi bi-tools"></i> Tipo serviço</a>
+            <a href="configurar_usuarios.php" class="btn btn-outline-danger"><i class="bi bi-person"></i> Usuários</a>
         </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>

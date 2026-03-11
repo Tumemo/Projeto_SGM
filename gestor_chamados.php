@@ -24,10 +24,10 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_perfil'] !== 'gestor') {
 
 <body>
     <nav class="bg-dark text-white d-flex justify-content-between py-2 px-5">
-        <h2 class="">SGM Admin</h2>
+        <h2 class="">SGM | Gestão Administrativa</h2>
         <div class="d-flex align-items-center gap-2">
-            <p class="m-0 border-1 border-end pe-2">Chamados</p>
-            <p class="m-0 border-1 border-end pe-2">Locais</p>
+            <p class="m-0 border-1 border-end pe-2">Olá, Admin Gestor</p>
+            <a href="gestor_dashboard.php" class="border-1 border-end pe-2 text-decoration-none btn btn-outline-light">Voltar</a>
             <a href="api/logout.php" class="btn btn-outline-light">Sair</a>
         </div>
     </nav>
